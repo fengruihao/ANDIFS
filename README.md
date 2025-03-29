@@ -1,6 +1,6 @@
 # Dragon Fruit Stem Disease Identification System
 
-![System Screenshot](./home.png) <!-- Add actual screenshot path -->
+![System Screenshot](./images/home.png) <!-- Add actual screenshot path -->
 
 An AI-powered web application for identifying diseases in pitaya (dragon fruit) plants using deep learning.
 
