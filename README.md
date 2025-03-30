@@ -26,7 +26,8 @@ An AI-powered web application for identifying diseases in pitaya (dragon fruit) 
 If using this system in research, please cite:
 @misc{pitayaid2025,
   title={Dragon Fruit Stem Disease Identification System},
-  author={cavey},
+  author={Changyu Liu, Jiawei Pei, Fengrui Hao, Yazhou Ren, Guogang Huang, Jingjing Zheng, Hansheng Wang, Chunyin Wu, Aimin Wu
+},
   year={2025},
   howpublished={GitHub Repository},
   url={https://github.com/cavey759/ANDIFS }
