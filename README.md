@@ -29,7 +29,7 @@ If using this system in research, please cite:
   author={cavey},
   year={2025},
   howpublished={GitHub Repository},
-  url={https://github.com/cavey759/ANDIFS }
+  url={https://github.com/cavey759/ANDIFS}
 }
 
 ## Installation
