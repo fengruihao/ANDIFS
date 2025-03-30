@@ -98,7 +98,7 @@ def save_result_image(image, top3_classes, top3_probabilities, time_taken, outpu
     for i, cla in enumerate(top3_classes):
         ax.text(-time_taken * 1000 * 0.05, i, cla, va='center', ha='right', fontproperties=prop, rotation=90,
                 color='red')
-    ax.text(time_taken * 1000 * 0.05, len(top3_classes), 'Time_taken', va='center', ha='left', fontproperties=prop,
+    ax.text(time_taken * 1000 * 0.05, len(top3_classes), 'Processing Time', va='center', ha='left', fontproperties=prop,
             rotation=90, color='blue')
 
     ax.grid(True, which='both', axis='x', linestyle='--', linewidth=0.5)
@@ -110,7 +110,7 @@ def save_result_image(image, top3_classes, top3_probabilities, time_taken, outpu
 
     ax.axhline(y=2.5, color='black', linewidth=1, linestyle='-')
     fig.text(0.62, 0.22, "Top 3 Predictions", fontproperties=prop, color='red', rotation='vertical')
-    fig.text(0.55, 0.03, "Time_taken (ms)", fontproperties=prop, color='blue')
+    fig.text(0.55, 0.03, "Processing Time (ms)", fontproperties=prop, color='blue')
     fig.text(0.8, 0.03, "Probability (%)", fontproperties=prop, color='red')
 
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -239,7 +239,7 @@ def show_analysis_result():
             </div>
         </div>
         <div style="margin-top: 1rem; color: #7f8c8d; font-size: 18px;">
-            Time_taken: {6:.2f}ms
+            Processing Time: {6:.2f}ms
         </div>
     </div>
     """.format(
