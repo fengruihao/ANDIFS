@@ -2,7 +2,7 @@
 
 ![System Screenshot](./images/home.png) <!-- Add actual screenshot path -->
 
-An AI-powered web application for identifying diseases in pitaya (dragon fruit) plants using deep learning.
+An AI-powered web application for identifying diseases in pitaya (dragon fruit) plants using deep learning. Currently, the related research paper is undergoing peer review at an international journal, with the system being continuously updated in parallel.
 
 ## Features
 
