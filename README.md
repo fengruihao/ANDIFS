@@ -1,59 +1,11 @@
-# Dragon Fruit Stem Disease Identification System
+# ANDIFS Model and DFSD Dataset Repository
 
-![System Screenshot](./images/home.png) <!-- Add actual screenshot path -->
+## 1. ANDIFS Model
+The ANDIFS model can be found in the `model` folder.
 
-An AI-powered web application for identifying diseases in pitaya (dragon fruit) plants using deep learning. Currently, the related research paper is undergoing peer review at an international journal, with the system being continuously updated in parallel.
+## 2. ANDIFS Training Weights
+The training weights of the ANDIFS model are stored in the `weights` folder.
 
-## Features
-
-- **Image Analysis**: Upload or capture images of dragon fruit  stems
-- **AI Identification**: ANDIFS model with ANDIFS-99.pth (92.22% accuracy)
-- **Multi-Result Display**: Top 3 predictions with confidence percentages
-- **Treatment Guides**: Detailed prevention and treatment methods
-- **Performance Metrics**: Processing time tracking
-- **History Tracking**: Save and review previous identifications
-- **User Accounts**: Secure login system
-
-## Technology Stack
-
-- **Backend**: Python (PyTorch, Streamlit)
-- **Model**: ANDIFS model with ANDIFS-99.pth
-- **Frontend**: Streamlit web interface
-- **Computer Vision**: OpenCV, PIL
-
-## Citation
-
-If using this system in research, please cite:
-@misc{pitayaid2025,
-  title={Dragon Fruit Stem Disease Identification System},
-  author={Changyu Liu, Jiawei Pei, Fengrui Hao, Yazhou Ren, Guogang Huang, Jingjing Zheng, Hansheng Wang, Chunyin Wu, Aimin Wu
-},
-  year={2025},
-  howpublished={GitHub Repository},
-  url={https://github.com/cavey759/ANDIFS }
-}
-
-## Installation
-
-1. **Clone the repository**:
-```bash
-git clone https://github.com/cavey759/ANDIFS.git
-```
-
-
-2. **Install dependencies**:
-```bash
-   pip install -r requirements.txt
-```
-
-3. **Activate the virtual environment of the project**:
-```bash
-   conda activate your_env_name
-```
-
-4. **Run application**:
-```bash
-   streamlit run frontend.py
-```
-
-
+## 3. DFSD Dataset
+The download link for the DFSD dataset from Baidu Netdisk is: [https://pan.baidu.com/s/132tLZjPxgd6x8fTr2GgAew?pwd=7ne9](https://pan.baidu.com/s/132tLZjPxgd6x8fTr2GgAew?pwd=7ne9)
+Extraction code: 7ne9
